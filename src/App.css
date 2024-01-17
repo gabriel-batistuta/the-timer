@@ -1,0 +1,54 @@
+div.main {
+  margin: 0;
+  padding: 0;
+  background-color: blueviolet;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+div.info-table {
+  display: block;
+  text-align: center;
+}
+
+table {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+}
+
+thead {
+  border: 1px solid black;
+  padding: 15px;
+  background-color: rgb(192, 192, 192);
+}
+
+thead > tr {
+  display: flex;
+  flex-direction: column;
+}
+
+tbody {
+  text-align: center;
+  display: block;
+  text-align: center;
+  align-items: center;
+  border: 1px solid black;
+  padding: 15px;
+  background-color: rgb(192, 192, 192);
+}
+
+tbody > tr {
+  display: block;
+  text-align: center;
+}
+
+tbody > tr > td{
+  display: block;
+  justify-content: space-around;
+}

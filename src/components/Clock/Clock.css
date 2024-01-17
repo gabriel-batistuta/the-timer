@@ -1,0 +1,40 @@
+@font-face {
+    font-family:"qahiri";
+    src: url("./Qahiri-Regular.ttf") format("truetype");
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+.container {
+    height: 50%;
+    width: 50%;
+    text-align: center; 
+    border: 5px solid black;  
+    padding: 10px; 
+    background-color: rgb(192, 192, 192);
+}
+
+.container span {
+    font-size: xxx-large;
+    color: black;
+    font-family: "qahiri";
+}
+
+.date-container {
+    border-bottom: 1px solid black;
+}
+
+.hour-container {
+    border-bottom: 1px solid black;
+}
+
+.DaysNewYear-container {
+    border-bottom: 1px solid black;
+}
